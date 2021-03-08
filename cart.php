@@ -38,6 +38,6 @@ function getProductById($id){
   // throw error if not found
 }
 
-// class Card implements Interfaces\CartInterface {
+// class Cart implements Interfaces\CartInterface {
 
 // }

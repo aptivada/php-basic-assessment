@@ -22,4 +22,9 @@ interface CartInterface {
      * item * quantity
      */
     function getTotalItems();
+
+    /**
+     * Output table of all items, prices, quantity in cart, etc
+     */
+    function printCart();
 }
