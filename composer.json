@@ -6,5 +6,7 @@
             "email": "daniel@aptivada.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/symfony": "^5.2"
+    }
 }
