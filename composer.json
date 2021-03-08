@@ -1,0 +1,10 @@
+{
+    "name": "daniel/php-basic-assessment",
+    "authors": [
+        {
+            "name": "Daniel Farr",
+            "email": "daniel@aptivada.com"
+        }
+    ],
+    "require": {}
+}
