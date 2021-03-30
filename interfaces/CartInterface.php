@@ -5,8 +5,8 @@ interface CartInterface {
     /**
      * Add Product
      * If item is in cart, increment quantity
-     * If quantity is not 1, set absolute quantity
-     * 
+     * If quantity is not 1, set absolute quantity.  Example, if 2 is given, set item quantity to 2. Do not increment by 2.
+     * If quantity is less than one, remove product.
      */
     function addProduct($id, $quantity = 1);
     function removeProduct($id);
