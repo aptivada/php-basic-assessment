@@ -14,5 +14,7 @@ $cart->addProduct(4, 5); // should have quantity of 5
 $cart->addProduct(1);
 $cart->addProduct(1, 0); // should remove id => 1 from cart
 
-$cart->addProduct(2, 2); // should have quantity 2;
+$cart->addProduct(2);
+$cart->removeProduct(2);
+
 */
