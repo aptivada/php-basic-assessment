@@ -38,6 +38,16 @@ function getProductById($id){
   // throw error if not found
 }
 
-// class Cart implements Interfaces\CartInterface {
-
-// }
+// Implement this class
+/*
+class Cart implements Interfaces\CartInterface {
+  public $cartItems = [
+    /* [
+        'id' => product id,
+        'title' => product title
+        'price' => product price
+        'quantity' => cart item quantity
+    ]/*
+  ];
+}
+*/
